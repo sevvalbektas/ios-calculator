@@ -21,3 +21,17 @@ const equal = document.querySelector(".equal");
 const point = document.querySelector(".point");
 const root = document.querySelector(".root");
 const sound = document.querySelector(".sound");
+
+ac.addEventListener("click", () => {
+  uppText.textContent = "";
+  downText.textContent = "";
+});
+
+number1.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "1";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "1";
+  }
+});
