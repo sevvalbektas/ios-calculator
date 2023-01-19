@@ -35,3 +35,12 @@ number1.addEventListener("click", () => {
     downText.textContent += "1";
   }
 });
+
+number2.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "2";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "2";
+  }
+});
