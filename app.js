@@ -44,3 +44,75 @@ number2.addEventListener("click", () => {
     downText.textContent += "2";
   }
 });
+
+number3.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "3";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "3";
+  }
+});
+
+number4.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "4";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "4";
+  }
+});
+
+number5.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "5";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "5";
+  }
+});
+
+number6.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "6";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "6";
+  }
+});
+
+number7.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "7";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "7";
+  }
+});
+
+number8.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "8";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "8";
+  }
+});
+
+number9.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "9";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "9";
+  }
+});
+
+number0.addEventListener("click", () => {
+  if (downText.textContent.length == 0 && uppText.textContent.length > 0) {
+    uppText.textContent += "";
+    downText.textContent = "";
+  } else {
+    downText.textContent += "0";
+  }
+});
