@@ -40,3 +40,14 @@ body {
   gap: 1rem;
   overflow: hidden;
 }
+.cal {
+  padding-left: 20px;
+  height: 480px;
+  width: 460px;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  column-gap: 20px;
+  row-gap: 10px;
+}
